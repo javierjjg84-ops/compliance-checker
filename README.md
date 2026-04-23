@@ -22,29 +22,24 @@ Genera reporte profesional (JSON + PDF)
 ESCANEO → PARSING → NORMALIZACIÓN → MAPEO → SCORING → REPORT
 
 # Estructura:
+
 compliance-checker/
-│
 ├── main.py
 ├── scanner/
 │   ├── lynis.py
 │   └── visor.py
-│
 ├── parser/
 │   ├── lynis_parser.py
 │   └── visor_parser.py
-│
 ├── core/
 │   ├── normalizer.py
 │   ├── mapper.py
 │   └── scorer.py
-│
 ├── report/
 │   ├── json_report.py
 │   └── pdf_report.py
-│
 ├── data/
 │   └── controls.json
-│
 └── output/
 
 # Raíz:
