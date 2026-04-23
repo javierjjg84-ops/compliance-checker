@@ -1,0 +1,57 @@
+{
+  "SSH-1001": {
+    "keywords": ["ssh", "sshd_config", "permitrootlogin"],
+    "title": "Configuración insegura de SSH",
+    "description": "El servicio SSH permite inicios de sesión raíz o protocolos antiguos.",
+    "remediation": "Editar /etc/ssh/sshd_config: PermitRootLogin no, Protocol 2",
+    "severity": "high",
+    "references": {
+      "iso27001": ["A.9.2.3", "A.9.4.2"],
+      "ens": ["AC-3", "OP.ACC.6"]
+    }
+  },
+  "NET-2001": {
+    "keywords": ["firewall", "ufw", "iptables", "nftables"],
+    "title": "Firewall inactivo o mal configurado",
+    "description": "No se detecta un firewall activo o reglas de filtrado.",
+    "remediation": "Instalar UFW y ejecutar 'ufw enable'.",
+    "severity": "high",
+    "references": {
+      "iso27001": ["A.13.1.1"],
+      "ens": ["SC-7", "SC-8"]
+    }
+  },
+  "AUTH-3001": {
+    "keywords": ["pam", "password", "pwquality", "passwd"],
+    "title": "Política de contraseñas débil",
+    "description": "La configuración de PAM no impone requisitos de complejidad.",
+    "remediation": "Modificar /etc/pam.d/common-password con pam_pwquality.",
+    "severity": "medium",
+    "references": {
+      "iso27001": ["A.9.4.3"],
+      "ens": ["OP.ACC.6"]
+    }
+  },
+  "SYS-4001": {
+    "keywords": ["kernel", "sysctl", "hardening"],
+    "title": "Kernel sin hardening",
+    "description": "Parámetros del kernel no optimizados.",
+    "remediation": "Añadir parámetros de seguridad en /etc/sysctl.conf.",
+    "severity": "medium",
+    "references": {
+      "iso27001": ["A.12.1.1"],
+      "ens": ["OP.EXP.1"]
+    }
+  },
+  "LOG-5001": {
+    "keywords": ["audit", "auditd", "logging", "logs"],
+    "title": "Auditoría de logs insuficiente",
+    "description": "No se detecta servicio de auditoría activo.",
+    "remediation": "Instalar y configurar 'auditd'.",
+    "severity": "medium",
+    "references": {
+      "iso27001": ["A.12.4.1"],
+      "ens": ["OP.MON.1"]
+    }
+  }
+}
