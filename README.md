@@ -89,7 +89,14 @@ En windows:
 ```
 pip3 install fpdf
 ```
+# Herraminetas necesarias:
+Lynis: Es una herramienta externa de auditoría de seguridad para Linux que requiere instalación manual para analizar vulnerabilidades y configuraciones del sistema.
+```
+sudo apt update
+sudo apt install lynis -y
+```
 
+Visor de Eventos: Es una utilidad nativa preinstalada en Windows que registra y gestiona todos los eventos de seguridad, aplicaciones y sistema del equipo.
 
 
 
