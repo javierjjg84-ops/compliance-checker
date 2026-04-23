@@ -20,8 +20,10 @@ Calcula un score de seguridad
 
 Genera reporte profesional (JSON + PDF)
 
-<h2 align="center">Flujo completo:</h2>
-ESCANEO → PARSING → NORMALIZACIÓN → MAPEO → SCORING → REPORT
+<div align="center">
+  <h2>Flujo completo:</h2>
+  <p>ESCANEO → PARSING → NORMALIZACIÓN → MAPEO → SCORING → REPORT</p>
+</div>
 
 <h2 align="center">Estructura:</h2>
 
