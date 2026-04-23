@@ -1,7 +1,7 @@
-<h1 align="center">Compliance-Checker </h1>
+<h1 align="center">Compliance-Checker: </h1>
 Construír un pipeline de compliance que integra Lynis y visor de eventos, parsea y normaliza los resultados, los mapea a controles de ISO 27001 y ENS, y genera scoring automatizado con reportes en PDF.
 
-# Objetivo real:
+<h2 align="center">Objetivo real:</h2>
 Construir una herramienta que:
 
 Escanea sistemas:
