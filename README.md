@@ -23,24 +23,25 @@ ESCANEO → PARSING → NORMALIZACIÓN → MAPEO → SCORING → REPORT
 
 # Estructura:
 
-compliance-checker/
+```
+comprobador-de-cumplimiento/
 ├── main.py
-├── scanner/
+├── escáner/
 │   ├── lynis.py
 │   └── visor.py
-├── parser/
+├── analizador/
 │   ├── lynis_parser.py
 │   └── visor_parser.py
-├── core/
-│   ├── normalizer.py
-│   ├── mapper.py
-│   └── scorer.py
-├── report/
-│   ├── json_report.py
-│   └── pdf_report.py
-├── data/
+├── núcleo/
+│   ├── normalizador.py
+│   ├── mapeador.py
+│   └── evaluador.py
+├── informe/
+│   ├── informe_json.py
+│   └── informe_pdf.py
+├── datos/
 │   └── controls.json
-└── output/
+└── salida/
 
 # Raíz:
 main.py: Es el punto de entrada que coordina todo el proceso: llama a los escáneres, procesa los datos y genera los informes.
