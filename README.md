@@ -6,6 +6,7 @@ Construir una herramienta que:
 Escanea sistemas:
 
 Linux → Lynis
+
 Windows → Visor de Eventos
 
 Hace parsing de resultados
