@@ -103,10 +103,17 @@ sudo apt install lynis -y
 Visor de Eventos: Es una utilidad nativa preinstalada en Windows que registra y gestiona todos los eventos de seguridad, aplicaciones y sistema del equipo.
 
 <h2 align="center">Ejecución:</h2>
-En Windows:
+<p align="center">
+  <img src="https://i.imgur.com/qfpqCCv.png" width="400">
+  <br>
+  <strong>Ejecución en Windows</strong>
+</p>
 
-En linux:
-
+<p align="center">
+  <img src="https://i.imgur.com/PFRiaiY.png" width="400">
+  <br>
+  <strong>Ejecución en Linux</strong>
+</p>
 
 
 
