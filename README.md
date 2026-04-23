@@ -3,6 +3,7 @@ Construír un pipeline de compliance que integra Lynis y visor de eventos, parse
 
 # Objetivo real:
 Construir una herramienta que:
+
 Escanea sistemas:
 
 Linux → Lynis
@@ -16,6 +17,7 @@ ISO 27001
 ENS
 
 Calcula un score de seguridad
+
 Genera reporte profesional (JSON + PDF)
 
 # Flujo completo:
