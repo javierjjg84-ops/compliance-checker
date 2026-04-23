@@ -81,6 +81,7 @@ Directorio: Carpeta donde se almacenan automáticamente los logs, los resultados
 La librería fpdf es el componente esencial instalado para que tu programa pueda generar y exportar los informes finales de auditoría en formato PDF.
 
 En linux:
+
 ```
 pip3 install fpdf --break-system-packages
 ```
@@ -91,6 +92,7 @@ pip3 install fpdf
 ```
 <h2 align="center">Herraminetas necesarias:</h2>
 Lynis: Es una herramienta externa de auditoría de seguridad para Linux que requiere instalación manual para analizar vulnerabilidades y configuraciones del sistema.
+
 ```
 sudo apt update
 sudo apt install lynis -y
