@@ -42,6 +42,7 @@ comprobador-de-cumplimiento/
 ├── datos/
 │   └── controls.json
 └── salida/
+```
 
 # Raíz:
 main.py: Es el punto de entrada que coordina todo el proceso: llama a los escáneres, procesa los datos y genera los informes.
