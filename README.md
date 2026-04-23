@@ -20,10 +20,10 @@ Calcula un score de seguridad
 
 Genera reporte profesional (JSON + PDF)
 
-# Flujo completo: <h2 align="center">Objetivo real:</h2>
+<h2 align="center">Flujo completo:</h2>
 ESCANEO → PARSING → NORMALIZACIÓN → MAPEO → SCORING → REPORT
 
-# Estructura: <h2 align="center">Objetivo real:</h2>
+<h2 align="center">Estructura:</h2>
 
 ```
 comprobador-de-cumplimiento/
@@ -46,27 +46,27 @@ comprobador-de-cumplimiento/
 └── salida/
 ```
 
-# Raíz: <h2 align="center">Objetivo real:</h2>
+<h2 align="center">Raíz:</h2>
 main.py: Es el punto de entrada que coordina todo el proceso: llama a los escáneres, procesa los datos y genera los informes.
 
-# scanner/ (Recolección) <h2 align="center">Objetivo real:</h2>
+<h2 align="center">scanner/ (Recolección)</h2>
 lynis.py: Ejecuta la herramienta Lynis para auditar la seguridad en sistemas Linux.
 
 visor.py: Ejecuta comandos de PowerShell para extraer configuraciones de seguridad en Windows.
 
-# parser/ (Traducción) <h2 align="center">Objetivo real:</h2>
+<h2 align="center">parser/ (Traducción)</h2>
 lynis_parser.py: Convierte la salida cruda de Lynis en una estructura de datos procesable por Python.
 
 visor_parser.py: Convierte la salida (JSON/texto) de PowerShell en una estructura de datos procesable.
 
-# core/ (Lógica) <h2 align="center">Objetivo real:</h2>
+<h2 align="center">core/ (Lógica)</h2>
 normalizer.py: Estandariza los datos provenientes de distintos escáneres (Linux/Windows) a un formato único.
 
 mapper.py: Asocia los hallazgos técnicos con marcos de control de seguridad (como NIST, ISO o CIS).
 
 scorer.py: Calcula una nota o puntuación de cumplimiento basada en los controles mapeados.
 
-# report/ (Presentación) <h2 align="center">Objetivo real:</h2>
+<h2 align="center">report/ (Presentación)</h2>
 json_report.py: Genera un archivo con los resultados completos en formato JSON.
 
 pdf_report.py: Crea un documento profesional y legible con los resultados de la auditoría en PDF.
