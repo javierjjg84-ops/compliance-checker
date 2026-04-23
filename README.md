@@ -104,15 +104,15 @@ Visor de Eventos: Es una utilidad nativa preinstalada en Windows que registra y 
 
 <h2 align="center">Ejecución:</h2>
 <p align="center">
+  <strong>Ejecución en Windows</strong>
   <img src="https://i.imgur.com/qfpqCCv.png" width="400">
   <br>
-  <strong>Ejecución en Windows</strong>
 </p>
 
 <p align="center">
+  <strong>Ejecución en Linux</strong>
   <img src="https://i.imgur.com/PFRiaiY.png" width="400">
   <br>
-  <strong>Ejecución en Linux</strong>
 </p>
 
 
