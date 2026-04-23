@@ -78,6 +78,20 @@ controls.json: Contiene la base de datos de los controles de seguridad y los cri
 Directorio: Carpeta donde se almacenan automáticamente los logs, los resultados crudos y los informes generados.
 
 # Requisitos:
+La librería fpdf es el componente esencial instalado para que tu programa pueda generar y exportar los informes finales de auditoría en formato PDF.
+
+En linux:
+```
+pip3 install fpdf --break-system-packages
+```
+
+En windows:
+```
+pip3 install fpdf
+```
+
+
+
 
 
 
