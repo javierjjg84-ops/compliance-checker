@@ -52,19 +52,24 @@ main.py: Es el punto de entrada que coordina todo el proceso: llama a los escán
 
 # scanner/ (Recolección)
 lynis.py: Ejecuta la herramienta Lynis para auditar la seguridad en sistemas Linux.
+
 visor.py: Ejecuta comandos de PowerShell para extraer configuraciones de seguridad en Windows.
 
 # parser/ (Traducción)
 lynis_parser.py: Convierte la salida cruda de Lynis en una estructura de datos procesable por Python.
+
 visor_parser.py: Convierte la salida (JSON/texto) de PowerShell en una estructura de datos procesable.
 
 # core/ (Lógica)
 normalizer.py: Estandariza los datos provenientes de distintos escáneres (Linux/Windows) a un formato único.
+
 mapper.py: Asocia los hallazgos técnicos con marcos de control de seguridad (como NIST, ISO o CIS).
+
 scorer.py: Calcula una nota o puntuación de cumplimiento basada en los controles mapeados.
 
 # report/ (Presentación)
 json_report.py: Genera un archivo con los resultados completos en formato JSON.
+
 pdf_report.py: Crea un documento profesional y legible con los resultados de la auditoría en PDF.
 
 # data/ (Configuración)
